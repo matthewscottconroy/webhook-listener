@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "express": "^4.21.1"
-  }
+  },
+  "name": "webhook-listener",
+  "version": "1.0.0",
+  "description": "A program that processes GitHub Webhooks to deploy Node.js projects on commits to main. A very basic CI/CD pipeline.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pm2",
+    "node",
+    "ci",
+    "cd",
+    "github",
+    "deploy",
+    "webhook"
+  ],
+  "author": "Matthew Scott Conroy",
+  "license": "MIT"
 }
