@@ -4,7 +4,7 @@ const express = require('express');
 const { exec } = require('child_process');
 
 const app = express();
-app.use(express.raw({type: 'application/json'}));
+app.use(express.raw({type: 'application/json', limit: '5mb'}));
 
 const crypto = require('crypto');
 
